@@ -23,11 +23,11 @@ class CalculatorBrain {
 
   String getInterpretation() {
     if (_bmi >= 25) {
-      return 'Got to get that workout going.';
+      return 'Got to get that workout going!';
     } else if (_bmi > 18.5) {
-      return 'Perfecta!';
+      return 'Spot on! Great Work.';
     } else {
-      return 'We need em calories.';
+      return 'Seems like we need more calories!';
     }
   }
 }
